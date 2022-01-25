@@ -11,6 +11,8 @@ namespace Main
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Glfw.Init();
+
         }
     }
 
@@ -20,7 +22,6 @@ namespace Main
         public DisplayManager(int height, int width, string name)
         {
             window = new NativeWindow(width, height, name);
-            Display.
         }
     }
 }
